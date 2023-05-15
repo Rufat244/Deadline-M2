@@ -77,10 +77,10 @@ class Listests {
     };
   }
   class newClassOfTask {
-    constructor(taskData) {
+    constructor(taskInform) {
         this.value = "";
-        if (taskData.children.length > 0) {
-            this.value = taskData.lastElementChild.value || "";
+        if (taskInform.children.length > 0) {
+            this.value = taskInform.lastElementChild.value || "    ";
         }
     }
   }
