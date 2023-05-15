@@ -30,20 +30,18 @@ body{
   }
   input{
     height: 100%;
-    width: 70%;
-    border: none;
-    background: none;
+    width: 100%;
   }
   .task .clicked{
-    background: #833AE0;
-    border-radius: 71px;
-    width: 150px;
-    height: 42px;
-    margin: 18px auto 19px;
     display: flex;
     flex-direction: row;
     cursor: pointer;
     border: none;
+    background: #833AE0;
+    border-radius: 71px;
+    width: 150px;
+    height: 40px;
+    margin: 20px auto 20px;
   }
   .task{
     width: 100%;
